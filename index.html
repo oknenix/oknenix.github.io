@@ -55,3 +55,57 @@
 
     .divider {
       height: 1px;
+      background: #ddd;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Моя коллекция игр</h1>
+
+<div id="list">Загрузка…</div>
+
+<script>
+  fetch("collection.json")
+    .then(res => res.json())
+    .then(data => {
+      const list = document.getElementById("list");
+      list.innerHTML = "";
+
+      data.items.forEach(game => {
+        const div = document.createElement("div");
+        div.className = "game";
+
+        const statusText = game.status === "completed"
+          ? "<span class='completed'>Пройдено</span>"
+          : "<span class='not-completed'>Не пройдено</span>";
+
+        div.innerHTML = `
+          <h2>
+            <a href="${game.link}" target="_blank">${game.name}</a>
+          </h2>
+
+          <div class="meta">
+            <div><span class="label">Статус:</span> ${statusText}</div>
+            ${game.format ? `<div><span class="label">Формат:</span> ${game.format}</div>` : ""}
+            ${game.added_at ? `<div><span class="label">Добавлено:</span> ${new Date(game.added_at).toLocaleDateString()}</div>` : ""}
+            ${game.price_paid !== undefined ? `<div><span class="label">Цена:</span> ${game.price_paid} ${game.price_paid_currency || ""}</div>` : ""}
+            ${game.note ? `<div><span class="label">Заметка / часы:</span> ${game.note}</div>` : ""}
+          </div>
+
+          <div class="divider"></div>
+        `;
+
+        list.appendChild(div);
+      });
+    })
+    .catch(err => {
+      document.getElementById("list").textContent =
+        "Ошибка загрузки данных";
+      console.error(err);
+    });
+</script>
+
+</body>
+</html>
