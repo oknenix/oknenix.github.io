@@ -91,7 +91,7 @@
             <div><span class="label">Status:</span> ${statusText}</div>
             ${game.format ? `<div><span class="label">Format:</span> ${game.format}</div>` : ""}
             ${game.added_at ? `<div><span class="label">Added:</span> ${new Date(game.added_at).toLocaleDateString()}</div>` : ""}
-            ${game.price_paid !== undefined ? `<div><span class="label">Price:</span> ${game.price_paid*0.0008} EUR </div>` : ""}
+            ${game.price_paid !== undefined ? `<div><span class="label">Price:</span> ${(game.price_paid * 0.0008).toFixed(2)).toString()} € </div>` : ""}
             ${game.note ? `<div><span class="label">Time:</span> ${game.note} h </div>` : ""}
           </div>
 
