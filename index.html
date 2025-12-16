@@ -91,8 +91,8 @@
             <div><span class="label">Статус:</span> ${statusText}</div>
             ${game.format ? `<div><span class="label">Формат:</span> ${game.format}</div>` : ""}
             ${game.added_at ? `<div><span class="label">Добавлено:</span> ${new Date(game.added_at).toLocaleDateString()}</div>` : ""}
-            ${game.price_paid !== undefined ? `<div><span class="label">Цена:</span> ${game.price_paid}*0.08 ${game.price_paid_currency || ""}</div>` : ""}
-            ${game.note ? `<div><span class="label">Заметка / часы:</span> ${game.note}</div>` : ""}
+            ${game.price_paid !== undefined ? `<div><span class="label">Цена:</span> ${game.price_paid*0.08} ${game.price_paid_currency || ""}</div>` : ""}
+            ${game.note ? `<div><span class="label">Часы:</span> ${game.note}</div>` : ""}
           </div>
 
           <div class="divider"></div>
