@@ -7,7 +7,8 @@
   <style>
     body {
       font-family: system-ui, sans-serif;
-      background: #f7f7f7;
+      background: #121212;
+      color: #eaeaea;
       margin: 0;
       padding: 20px;
     }
@@ -17,11 +18,11 @@
     }
 
     .game {
-      background: #fff;
+      background: #1e1e1e;
       padding: 16px;
       margin-bottom: 16px;
       border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
     }
 
     .game h2 {
@@ -30,13 +31,13 @@
     }
 
     .game a {
-      color: #3366cc;
+      color: #7aa2ff;
       text-decoration: none;
     }
 
     .meta {
       font-size: 14px;
-      color: #444;
+      color: #aaa;
       line-height: 1.5;
     }
 
@@ -45,17 +46,17 @@
     }
 
     .completed {
-      color: #2e7d32;
+      color: #6fcf97;
       font-weight: 600;
     }
 
     .not-completed {
-      color: #999;
+      color: #777;
     }
 
     .divider {
       height: 1px;
-      background: #ddd;
+      background: #333;
       margin-top: 12px;
     }
   </style>
@@ -90,7 +91,7 @@
             <div><span class="label">Статус:</span> ${statusText}</div>
             ${game.format ? `<div><span class="label">Формат:</span> ${game.format}</div>` : ""}
             ${game.added_at ? `<div><span class="label">Добавлено:</span> ${new Date(game.added_at).toLocaleDateString()}</div>` : ""}
-            ${game.price_paid !== undefined ? `<div><span class="label">Цена:</span> ${game.price_paid} ${game.price_paid_currency || ""}</div>` : ""}
+            ${game.price_paid !== undefined ? `<div><span class="label">Цена:</span> ${game.price_paid}*0.08 ${game.price_paid_currency || ""}</div>` : ""}
             ${game.note ? `<div><span class="label">Заметка / часы:</span> ${game.note}</div>` : ""}
           </div>
 
