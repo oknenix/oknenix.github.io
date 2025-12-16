@@ -88,11 +88,11 @@
           </h2>
 
           <div class="meta">
-            <div><span class="label">Статус:</span> ${statusText}</div>
-            ${game.format ? `<div><span class="label">Формат:</span> ${game.format}</div>` : ""}
-            ${game.added_at ? `<div><span class="label">Добавлено:</span> ${new Date(game.added_at).toLocaleDateString()}</div>` : ""}
-            ${game.price_paid !== undefined ? `<div><span class="label">Цена:</span> ${game.price_paid*0.08} ${game.price_paid_currency || ""}</div>` : ""}
-            ${game.note ? `<div><span class="label">Часы:</span> ${game.note}</div>` : ""}
+            <div><span class="label">Status:</span> ${statusText}</div>
+            ${game.format ? `<div><span class="label">Format:</span> ${game.format}</div>` : ""}
+            ${game.added_at ? `<div><span class="label">Added:</span> ${new Date(game.added_at).toLocaleDateString()}</div>` : ""}
+            ${game.price_paid !== undefined ? `<div><span class="label">Price:</span> ${game.price_paid*0.0008} EUR </div>` : ""}
+            ${game.note ? `<div><span class="label">Time:</span> ${game.note}</div>` : ""}
           </div>
 
           <div class="divider"></div>
