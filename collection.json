@@ -21,6 +21,7 @@
       "link": "https://www.dekudeals.com/items/batman-the-enemy-within",
       "added_at": "2024-06-22T11:53:43+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 6100,
       "price_paid_currency": "NOK"
     },
@@ -29,6 +30,7 @@
       "link": "https://www.dekudeals.com/items/batman-the-telltale-series",
       "added_at": "2024-02-13T20:06:58+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 6100,
       "price_paid_currency": "NOK"
     },
@@ -36,6 +38,7 @@
       "name": "Big Brain Academy: Brain vs. Brain",
       "link": "https://www.dekudeals.com/items/big-brain-academy-brain-vs-brain",
       "added_at": "2025-01-01T18:24:48+00:00",
+      "format": "digital",
       "price_paid": 21900,
       "price_paid_currency": "NOK"
     },
@@ -43,6 +46,7 @@
       "name": "Brothers: A Tale of Two Sons",
       "link": "https://www.dekudeals.com/items/brothers-a-tale-of-two-sons",
       "added_at": "2024-02-13T20:13:59+00:00",
+      "format": "digital",
       "price_paid": 2800,
       "price_paid_currency": "NOK"
     },
@@ -51,6 +55,7 @@
       "link": "https://www.dekudeals.com/items/burnout-paradise-remastered",
       "added_at": "2024-02-13T20:03:51+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 5900,
       "price_paid_currency": "NOK",
       "note": "20"
@@ -85,6 +90,7 @@
       "name": "DAVE THE DIVER",
       "link": "https://www.dekudeals.com/items/dave-the-diver",
       "added_at": "2025-11-22T10:54:06+00:00",
+      "format": "digital",
       "price_paid": 12000,
       "price_paid_currency": "NOK"
     },
@@ -92,6 +98,7 @@
       "name": "Dead Cells",
       "link": "https://www.dekudeals.com/items/dead-cells",
       "added_at": "2025-03-27T22:44:31+00:00",
+      "format": "digital",
       "price_paid": 0,
       "price_paid_currency": "NOK"
     },
@@ -108,7 +115,16 @@
       "name": "Disco Elysium - The Final Cut",
       "link": "https://www.dekudeals.com/items/disco-elysium-the-final-cut",
       "added_at": "2024-02-13T19:57:44+00:00",
+      "format": "digital",
       "price_paid": 12000,
+      "price_paid_currency": "NOK"
+    },
+    {
+      "name": "Divinity: Original Sin 2 - Definitive Edition",
+      "link": "https://www.dekudeals.com/items/divinity-original-sin-2-definitive-edition",
+      "added_at": "2025-12-19T22:32:44+00:00",
+      "format": "digital",
+      "price_paid": 25000,
       "price_paid_currency": "NOK"
     },
     {
@@ -124,6 +140,7 @@
       "link": "https://www.dekudeals.com/items/dysmantle",
       "added_at": "2025-07-24T19:29:40+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 8000,
       "price_paid_currency": "NOK",
       "note": "40"
@@ -141,13 +158,23 @@
       "link": "https://www.dekudeals.com/items/far-lone-sails",
       "added_at": "2024-02-13T19:57:00+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 1500,
+      "price_paid_currency": "NOK"
+    },
+    {
+      "name": "GRID Autosport",
+      "link": "https://www.dekudeals.com/items/grid-autosport",
+      "added_at": "2025-12-19T22:28:51+00:00",
+      "format": "digital",
+      "price_paid": 15900,
       "price_paid_currency": "NOK"
     },
     {
       "name": "Hades",
       "link": "https://www.dekudeals.com/items/hades",
       "added_at": "2024-06-27T16:02:11+00:00",
+      "format": "digital",
       "price_paid": 10000,
       "price_paid_currency": "NOK"
     },
@@ -155,6 +182,7 @@
       "name": "Hogwarts Legacy: Deluxe Edition",
       "link": "https://www.dekudeals.com/items/hogwarts-legacy-digital-deluxe-edition",
       "added_at": "2025-11-22T10:53:45+00:00",
+      "format": "digital",
       "price_paid": 11200,
       "price_paid_currency": "NOK"
     },
@@ -162,6 +190,7 @@
       "name": "Hollow Knight",
       "link": "https://www.dekudeals.com/items/hollow-knight",
       "added_at": "2024-04-19T14:05:40+00:00",
+      "format": "digital",
       "price_paid": 5000,
       "price_paid_currency": "NOK"
     },
@@ -169,6 +198,7 @@
       "name": "Immortals Fenyx Rising",
       "link": "https://www.dekudeals.com/items/immortals-fenyx-rising",
       "added_at": "2025-06-01T21:45:46+00:00",
+      "format": "digital",
       "price_paid": 8900,
       "price_paid_currency": "NOK"
     },
@@ -185,6 +215,7 @@
       "name": "Into the Breach",
       "link": "https://www.dekudeals.com/items/into-the-breach",
       "added_at": "2024-04-19T14:05:28+00:00",
+      "format": "digital",
       "price_paid": 5100,
       "price_paid_currency": "NOK",
       "note": "40"
@@ -212,6 +243,7 @@
       "link": "https://www.dekudeals.com/items/the-legend-of-zelda-echoes-of-wisdom",
       "added_at": "2024-07-05T10:38:41+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 54500,
       "price_paid_currency": "NOK",
       "note": "25"
@@ -257,6 +289,7 @@
       "link": "https://www.dekudeals.com/items/lego-city-undercover",
       "added_at": "2024-10-07T15:38:21+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 4900,
       "price_paid_currency": "NOK",
       "note": "10"
@@ -266,6 +299,7 @@
       "link": "https://www.dekudeals.com/items/lego-dc-super-villains-deluxe",
       "added_at": "2025-04-26T10:30:56+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 5100,
       "price_paid_currency": "NOK",
       "note": "15"
@@ -275,6 +309,7 @@
       "link": "https://www.dekudeals.com/items/lego-marvel-super-heroes",
       "added_at": "2025-03-25T21:52:03+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 4100,
       "price_paid_currency": "NOK",
       "note": "10"
@@ -284,6 +319,7 @@
       "link": "https://www.dekudeals.com/items/lego-marvel-super-heroes-2",
       "added_at": "2025-11-22T10:53:56+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 4900,
       "price_paid_currency": "NOK"
     },
@@ -292,6 +328,7 @@
       "link": "https://www.dekudeals.com/items/lego-star-wars-the-skywalker-saga",
       "added_at": "2024-05-08T19:51:53+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 14900,
       "price_paid_currency": "NOK",
       "note": "15"
@@ -300,6 +337,7 @@
       "name": "LEGO Worlds",
       "link": "https://www.dekudeals.com/items/lego-worlds",
       "added_at": "2025-04-20T18:47:10+00:00",
+      "format": "digital",
       "price_paid": 3400,
       "price_paid_currency": "NOK"
     },
@@ -324,6 +362,7 @@
       "link": "https://www.dekudeals.com/items/mario-rabbids-kingdom-battle",
       "added_at": "2024-02-13T19:58:28+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 13200,
       "price_paid_currency": "NOK",
       "note": "25"
@@ -342,6 +381,7 @@
       "link": "https://www.dekudeals.com/items/mario-plus-rabbids-sparks-of-hope",
       "added_at": "2024-04-05T21:52:18+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 19700,
       "price_paid_currency": "NOK",
       "note": "30"
@@ -359,6 +399,7 @@
       "name": "Metroid Dread",
       "link": "https://www.dekudeals.com/items/metroid-dread",
       "added_at": "2024-06-22T11:52:02+00:00",
+      "format": "digital",
       "price_paid": 43900,
       "price_paid_currency": "NOK"
     },
@@ -366,6 +407,7 @@
       "name": "Monster Boy and the Cursed Kingdom",
       "link": "https://www.dekudeals.com/items/monster-boy-and-the-cursed-kingdom",
       "added_at": "2024-02-13T19:57:58+00:00",
+      "format": "digital",
       "price_paid": 8000,
       "price_paid_currency": "NOK"
     },
@@ -373,6 +415,7 @@
       "name": "Monument Valley: The Collection",
       "link": "https://www.dekudeals.com/items/monument-valley-panoramic-collection",
       "added_at": "2025-11-20T22:29:50+00:00",
+      "format": "digital",
       "price_paid": 24600,
       "price_paid_currency": "NOK"
     },
@@ -381,6 +424,7 @@
       "link": "https://www.dekudeals.com/items/moonlighter",
       "added_at": "2024-02-13T19:59:39+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 2400,
       "price_paid_currency": "NOK",
       "note": "15"
@@ -389,6 +433,7 @@
       "name": "Need for Speed Hot Pursuit Remastered",
       "link": "https://www.dekudeals.com/items/need-for-speed-hot-pursuit-remastered",
       "added_at": "2024-03-29T22:41:57+00:00",
+      "format": "digital",
       "price_paid": 7900,
       "price_paid_currency": "NOK"
     },
@@ -396,6 +441,7 @@
       "name": "NieR:Automata The End of YoRHa Edition",
       "link": "https://www.dekudeals.com/items/nier-automata-the-end-of-yorha-edition-switch",
       "added_at": "2024-09-19T21:41:04+00:00",
+      "format": "digital",
       "price_paid": 19900,
       "price_paid_currency": "NOK"
     },
@@ -412,6 +458,7 @@
       "name": "Ori and the Blind Forest: Definitive Edition",
       "link": "https://www.dekudeals.com/items/ori-and-the-blind-forest-de",
       "added_at": "2024-03-15T21:35:27+00:00",
+      "format": "digital",
       "price_paid": 6500,
       "price_paid_currency": "NOK"
     },
@@ -419,6 +466,7 @@
       "name": "Outer Wilds",
       "link": "https://www.dekudeals.com/items/outer-wilds",
       "added_at": "2025-10-17T22:05:33+00:00",
+      "format": "digital",
       "price_paid": 15000,
       "price_paid_currency": "NOK"
     },
@@ -445,7 +493,16 @@
       "name": "Prince of Persia The Lost Crown",
       "link": "https://www.dekudeals.com/items/prince-of-persia-the-lost-crown",
       "added_at": "2024-12-18T21:23:42+00:00",
+      "format": "digital",
       "price_paid": 22400,
+      "price_paid_currency": "NOK"
+    },
+    {
+      "name": "Red Dead Redemption",
+      "link": "https://www.dekudeals.com/items/red-dead-redemption",
+      "added_at": "2025-12-19T22:31:11+00:00",
+      "format": "digital",
+      "price_paid": 27400,
       "price_paid_currency": "NOK"
     },
     {
@@ -453,13 +510,15 @@
       "link": "https://www.dekudeals.com/items/ruiner",
       "added_at": "2024-04-05T22:00:28+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 800,
       "price_paid_currency": "NOK"
     },
     {
       "name": "Scott Pilgrim vs. The World: The Game – Complete Edition",
       "link": "https://www.dekudeals.com/items/scott-pilgrim-vs-the-world-the-game-complete-edition",
-      "added_at": "2025-06-01T22:22:12+00:00"
+      "added_at": "2025-06-01T22:22:12+00:00",
+      "format": "digital"
     },
     {
       "name": "Sky: Children of the Light",
@@ -471,6 +530,7 @@
       "name": "SnowRunner",
       "link": "https://www.dekudeals.com/items/snowrunner",
       "added_at": "2024-02-13T20:12:56+00:00",
+      "format": "digital",
       "price_paid": 19900,
       "price_paid_currency": "NOK",
       "note": "530"
@@ -511,6 +571,7 @@
       "name": "Stardew Valley",
       "link": "https://www.dekudeals.com/items/stardew-valley",
       "added_at": "2024-02-26T23:01:01+00:00",
+      "format": "digital",
       "price_paid": 5000,
       "price_paid_currency": "NOK"
     },
@@ -528,6 +589,7 @@
       "name": "SteamWorld Dig 2",
       "link": "https://www.dekudeals.com/items/steamworld-dig-2",
       "added_at": "2025-04-02T15:25:53+00:00",
+      "format": "digital",
       "price_paid": 1600,
       "price_paid_currency": "NOK"
     },
@@ -572,6 +634,7 @@
       "link": "https://www.dekudeals.com/items/super-mario-bros-wonder",
       "added_at": "2024-07-05T10:38:17+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 54500,
       "price_paid_currency": "NOK",
       "note": "10"
@@ -599,6 +662,7 @@
       "link": "https://www.dekudeals.com/items/teenage-mutant-ninja-turtles-shredders-revenge",
       "added_at": "2024-04-05T21:56:58+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 16600,
       "price_paid_currency": "NOK"
     },
@@ -614,13 +678,23 @@
       "name": "Teenage Mutant Ninja Turtles: The Cowabunga Collection",
       "link": "https://www.dekudeals.com/items/teenage-mutant-ninja-turtles-the-cowabunga-collection",
       "added_at": "2024-03-06T00:13:46+00:00",
+      "format": "digital",
       "price_paid": 24000,
+      "price_paid_currency": "NOK"
+    },
+    {
+      "name": "Tents and Trees",
+      "link": "https://www.dekudeals.com/items/tents-and-trees",
+      "added_at": "2025-12-19T22:27:43+00:00",
+      "format": "digital",
+      "price_paid": 2000,
       "price_paid_currency": "NOK"
     },
     {
       "name": "Tony Hawk's Pro Skater 1 + 2",
       "link": "https://www.dekudeals.com/items/tony-hawks-pro-skater-1-plus-2",
       "added_at": "2024-02-13T19:58:18+00:00",
+      "format": "digital",
       "price_paid": 15100,
       "price_paid_currency": "NOK"
     },
@@ -634,6 +708,7 @@
       "name": "Warhammer 40,000: Mechanicus",
       "link": "https://www.dekudeals.com/items/warhammer-40000-mechanicus",
       "added_at": "2024-02-13T20:05:50+00:00",
+      "format": "digital",
       "price_paid": 10000,
       "price_paid_currency": "NOK"
     },
@@ -641,6 +716,7 @@
       "name": "The Witcher 3: Wild Hunt — Complete Edition",
       "link": "https://www.dekudeals.com/items/the-witcher-3-wild-hunt-complete-edition",
       "added_at": "2024-12-18T21:23:50+00:00",
+      "format": "digital",
       "price_paid": 18100,
       "price_paid_currency": "NOK"
     },
@@ -648,6 +724,7 @@
       "name": "World of Goo 2",
       "link": "https://www.dekudeals.com/items/world-of-goo-2",
       "added_at": "2025-11-22T10:53:23+00:00",
+      "format": "digital",
       "price_paid": 23100,
       "price_paid_currency": "NOK"
     },
@@ -656,6 +733,7 @@
       "link": "https://www.dekudeals.com/items/wreckfest",
       "added_at": "2024-08-10T18:00:57+00:00",
       "status": "completed",
+      "format": "digital",
       "price_paid": 17200,
       "price_paid_currency": "NOK",
       "note": "10"
