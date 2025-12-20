@@ -54,6 +54,13 @@
       color: #777;
     }
 
+    .cover {
+      width: 120px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      display: block;
+    }
+
     .divider {
       height: 1px;
       background: #333;
@@ -66,7 +73,8 @@
 <h1>Моя коллекция игр</h1>
 
 <div id="list">Загрузка…</div>
-
+  
+<script src="covers.js"></script>  
 <script>
   fetch("collection.json")
     .then(res => res.json())
@@ -82,7 +90,10 @@
           ? "<span class='completed'>completed</span>"
           : "<span class='not-completed'>not-completed</span>";
 
+        const cover = covers[game.name];
+
         div.innerHTML = `
+          ${cover ? `<img class="cover" src="${cover}" alt="">` : ""}
           <h2>
             <a href="${game.link}" target="_blank">${game.name}</a>
           </h2>
