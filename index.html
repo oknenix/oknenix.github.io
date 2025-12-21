@@ -23,6 +23,9 @@
       margin-bottom: 16px;
       border-radius: 8px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+      display: flex;        
+      gap: 16px;            
+      align-items: flex-start;
     }
 
     .game h2 {
@@ -56,11 +59,15 @@
 
     .cover {
       width: 420px;
+      flex-shrink: 0; 
       border-radius: 6px;
-      margin-bottom: 10px;
-      display: block;
+      /*margin-bottom: 10px;*/
+      /*display: block;*/
     }
 
+    .content {
+  flex: 1;   /* занимает всё доступное место */
+    }
     .divider {
       height: 1px;
       background: #333;
@@ -98,12 +105,17 @@
             <a href="${game.link}" target="_blank">${game.name}</a>
           </h2>
 
+          <div class="content">
+          <h2>
+            <a href="${game.link}" target="_blank">${game.name}</a>
+          </h2>
           <div class="meta">
             <div><span class="label">Status:</span> ${statusText}</div>
             ${game.format ? `<div><span class="label">Format:</span> ${game.format}</div>` : ""}
             ${game.added_at ? `<div><span class="label">Added:</span> ${new Date(game.added_at).toLocaleDateString()}</div>` : ""}
             ${game.price_paid !== undefined ? `<div><span class="label">Price:</span> ${Number((game.price_paid * 0.0008).toFixed(2)).toString()} € </div>` : ""}
             ${game.note ? `<div><span class="label">Time:</span> ${game.note} h </div>` : ""}
+          </div>
           </div>
 
           <div class="divider"></div>
